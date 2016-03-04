@@ -81,7 +81,7 @@ class Table extends AbstractElement
                 $width = 720; // Arbitrary default width
             }
             $rightMargin += $width;
-            $content .= "{$vMerge}\cellx{$rightMargin} ";
+            $content .= "{$vMerge}\clbrdrt\brdrs\clbrdrl\brdrs\clbrdrb\brdrs\clbrdrr\brdrs\cellx{$rightMargin} ";
         }
 
         return $content;
